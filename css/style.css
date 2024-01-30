@@ -30,6 +30,10 @@
         .menu ul li{
             margin-right: 24px;
         }
+            .menu svg{
+                width: 30px;
+                fill: black;
+            }
 
 /* ends menu */
 /* start-product-show */
