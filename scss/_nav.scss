@@ -1,0 +1,23 @@
+.menu{
+    background-color: $secondColor;
+    font-size: $xl;
+    font-weight: $regular;
+    svg{
+        width: 30px;
+        fill: $black;
+    }
+    ul{
+       list-style-type: none; 
+       a{
+            &:hover{
+                color: blue;
+            }
+        }
+    }
+    h2{
+        font-size: $lg;
+        font-weight: $regular;
+        text-decoration: underline;
+        font-weight: $bold;
+    }
+}

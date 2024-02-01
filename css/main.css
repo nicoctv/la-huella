@@ -1,3 +1,204 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400&display=swap");
+* {
+  font-family: "Outfit", sans-serif;
+  box-sizing: border-box;
+}
+
+h1 h2 {
+  font-size: 1.5em;
+}
+
+.menu {
+  background-color: rgb(119, 125, 123);
+  font-size: 1.5em;
+  font-weight: 400;
+}
+.menu svg {
+  width: 30px;
+  fill: black;
+}
+.menu ul {
+  list-style-type: none;
+}
+.menu ul a:hover {
+  color: blue;
+}
+.menu h2 {
+  font-size: 1.1em;
+  font-weight: 400;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.main-logo {
+  width: 100%;
+  height: auto;
+}
+
+.product-show {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  justify-items: center;
+  align-items: center;
+  padding: 7%;
+}
+.product-show div.product-show-one img {
+  width: 50%;
+  height: auto;
+  grid-area: quesos;
+}
+.product-show div.product-show-two img {
+  width: 50%;
+  height: auto;
+  grid-area: bebidas;
+}
+.product-show div.product-show-three img {
+  width: 50%;
+  height: auto;
+  grid-area: panes;
+}
+.product-show div.product-show-four img {
+  width: 50%;
+  height: auto;
+  grid-area: vino;
+}
+.product-show div.product-show-five img {
+  width: 50%;
+  height: auto;
+  grid-area: friambres;
+}
+.product-show div.product-show-six img {
+  width: 50%;
+  height: auto;
+  grid-area: snack;
+}
+
+h2.text-productos {
+  font-size: 1.5em;
+  text-align: center;
+  text-decoration: underline;
+  font-weight: 600;
+  margin-bottom: 18px;
+}
+h2.text-productos .selected-products {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 50px;
+}
+h2.text-productos .coca-cola img {
+  width: 35%;
+  height: auto;
+}
+h2.text-productos .quesos-cubos img {
+  width: 35%;
+  height: auto;
+}
+h2.text-productos .fernet img {
+  width: 35%;
+  height: auto;
+}
+h2.text-productos .vino img {
+  width: 35%;
+  height: auto;
+}
+h2.text-productos .panes img {
+  width: 35%;
+  height: auto;
+}
+
+main section h1 {
+  font-size: 24px;
+  margin: 25px;
+  padding: 16px;
+  text-decoration: underline;
+}
+main section h1 form ul {
+  list-style-type: none;
+  margin: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+main section h1 li {
+  margin: 5px;
+  padding: 2px;
+}
+main section h1 input {
+  font-size: 1.1em;
+}
+main section h1 label.email {
+  margin-right: 22px;
+}
+
+h1 {
+  font-size: 1.5em;
+  text-decoration: underline;
+  margin: 10px;
+  padding: 12px;
+}
+
+.text-us {
+  margin: 10px;
+  padding: 10px;
+  font-size: 18px;
+}
+
+h2.schedule {
+  font-size: 1.5em;
+  text-decoration: underline;
+  margin: 10px;
+  padding: 10px;
+  margin-left: 70%;
+}
+h2.schedule .table {
+  font-size: 24px;
+  margin-left: 70%;
+}
+h2.schedule .logo-local img {
+  width: 60%;
+  height: auto;
+}
+
+h1.title-acc {
+  font-size: 24px;
+  text-decoration: underline;
+}
+h1.title-acc form div.first-form {
+  font-size: 400;
+  padding: 10px;
+  margin: 12px;
+}
+h1.title-acc div.second-form {
+  font-size: 400;
+  padding: 10px;
+  margin: 12px;
+}
+h1.title-acc div.third-form {
+  font-size: 400;
+  padding: 10px;
+  margin: 12px;
+}
+
+.main-store .action-store .buscar {
+  color: black;
+  padding: 6px;
+  margin: 4px;
+  border: none;
+  border-radius: 3px;
+}
+.main-store .action-store .buscar .action-store .carrito {
+  color: black;
+  padding: 6px;
+  margin: 4px;
+  border: none;
+  border-radius: 3px;
+}
+.main-store .action-store .buscar ul li a {
+  text-decoration: none;
+}
+.main-store .action-store .buscar a:hover {
+  color: blue;
+}
 
 /*# sourceMappingURL=main.css.map */

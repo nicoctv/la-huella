@@ -1,0 +1,31 @@
+//fonts
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400&display=swap');
+//vars
+$mainFont: 'Outfit', sans-serif;
+$secondFont: Verdana, sans-serif;
+//weights
+$light: 300;
+$regular: 400;
+$bold:600;
+//colors
+$maincolor: rgb(247, 185, 70);
+$secondColor: rgb(119, 125, 123);
+$white: white;
+$black: black;
+//size
+$sm: 0.6em;
+$md: 0.8em;
+$lg: 1.1em;
+$xl: 1.5em;
+//setting global
+*{
+    font-family: 'Outfit', sans-serif;
+    box-sizing: border-box;
+}
+
+
+h1
+h2{
+    font-size: $xl;
+    
+}

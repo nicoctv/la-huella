@@ -1,0 +1,87 @@
+.main-logo{
+    width: 100%;
+    height: auto;
+}
+.product-show{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+    padding: 7%;
+
+    div.product-show-one img{
+        width: 50%;
+        height: auto;
+        grid-area: quesos;
+        
+
+    }
+    div.product-show-two img{
+        width: 50%;
+        height: auto;
+        grid-area: bebidas;
+        
+    }
+    div.product-show-three img{
+        width: 50%;
+        height: auto;
+        grid-area: panes;
+        
+    }
+    div.product-show-four img{
+        width: 50%;
+        height: auto;
+        grid-area: vino;
+    }
+    div.product-show-five img{
+        width: 50%;
+        height: auto;
+        grid-area: friambres;
+        
+    }
+    div.product-show-six img{
+        width: 50%;
+        height: auto;
+        grid-area: snack;
+        
+    }
+}
+
+    h2.text-productos{
+        font-size: $xl;
+        text-align: center;
+        text-decoration: underline;
+        font-weight: $bold;
+        margin-bottom: 18px;
+        .selected-products{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: 50px;
+        
+        }
+        .coca-cola img{
+            width: 35%;
+            height: auto;
+        }
+        .quesos-cubos img{
+            width: 35%;
+            height: auto;
+        }
+        .fernet img{
+            width: 35%;
+            height: auto;
+        }
+        .vino img{
+            width: 35%;
+            height: auto;
+        }
+        .panes img{
+            width: 35%;
+            height: auto;
+        }
+    }
+
+                        
+                        

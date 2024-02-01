@@ -1,0 +1,22 @@
+main section h1{
+    font-size: 24px;
+    margin: 25px;
+    padding: 16px;
+    text-decoration: underline;
+form ul{
+        list-style-type: none;
+        margin: 10px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+ li{
+        margin: 5px;
+        padding: 2px;
+    }
+    input{
+        font-size: $lg;
+    }
+    label.email{
+        margin-right: 22px;
+    }
+}
