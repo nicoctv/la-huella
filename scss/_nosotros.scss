@@ -9,20 +9,8 @@ h1{
         padding: 10px;
         font-size: 18px;
     }
-        h2.schedule{
-            font-size: $xl;
-            text-decoration: underline;
-            margin: 10px;
-            padding: 10px;
-            margin-left: 70%;
-
-            .table{
-                font-size: 24px;
-                margin-left: 70%;
-            }
-            .logo-local img{
-                width: 60%;
-                height: auto;
-
-            }
-        }
+.logo-local img{
+    width: 60%;
+    height: auto;
+    margin-left: 4rem;
+}
